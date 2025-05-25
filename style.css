@@ -206,8 +206,9 @@ transition: all 0.2s ease;
 }
 ::placeholder{
     text-align: center;
-    color: rgb(255, 255, 255);;
+    color: rgb(255, 255, 255);
 font-size:15px;
+	opacity:0.6;
 }
 input[type="submit"]:hover {
 background-color: #809316;
