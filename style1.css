@@ -15,19 +15,20 @@
 body {
     background-color: rgba(221, 212, 212, 0.466);
     width: 80%;
-background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 
 .container {
     display: flex;
     position: relative;
+   
 }
 
 .container .navbar {
     display: block;
     position: fixed;
-background: linear-gradient(to bottom, #1f1f2e, #2c3e50);
+background-image: linear-gradient(to right , #27282e, #0a1926);
 color: #E0E0E0; 
     width: 200px;
     height: 100%;
@@ -37,8 +38,8 @@ color: #E0E0E0;
 }
 .container .navbar h2{
     color: rgb(240, 240, 240);
-    text-align: center;
-    margin-right:60px;
+    margin-left:12px;
+   font-size: 26px;
     margin-bottom: 23px;
     text-transform: uppercase;
     
@@ -51,7 +52,7 @@ color: #E0E0E0;
     border-top: 1.5px solid rgba(160, 146, 146, 0.05);
 height: 100%;
 position: relative;
-height: 100%;
+
 
 }
 .container .navbar ul li a{
@@ -87,22 +88,4 @@ border-radius:5px;
    }
 
 
-.box{
-    width: 600px;
-    height: 510px;
-    
-    position: relative;
-    display: flex;
-    place-content: center;
-    place-items: center;
-    overflow:hidden ;
-   
-    margin:30px 400px;
-    background-color: rgba(0, 0, 0, 0.8);
-border-radius: 12px;
-box-shadow: 0 0 15px rgba(0, 201, 255, 0.2);
-}
-i{
-    display: block;
-}
 
